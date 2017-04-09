@@ -11,7 +11,7 @@ function ChanclaTyper(X,Y,Image){
 		var ctx = canvas.getContext("2d");
 		canvas.width = image.width;
 		canvas.height = image.height;
-		alert(canvas.width +","+canvas.height);
+		//alert(canvas.width +","+canvas.height);
 		ctx.drawImage(image, 0, 0, image.width, image.height);
 		
 		var imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);	
