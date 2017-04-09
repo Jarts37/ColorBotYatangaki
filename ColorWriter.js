@@ -1,12 +1,12 @@
-function ColorWriter(tab){
-    console.log("pomme de terre");
+function ColorWriter(tab,startX,startY){
+    console.log("citron");
 	
 	imageData = tab;
 var taskQueue = [];
 var taskIndex = 0;
  
-var x = xxx; //STARTING POSITION X
-var y = yyy; //STARTING POSITION Y
+var x = startX //STARTING POSITION X
+var y = startY //STARTING POSITION Y
  
 function generateTasks(){
     taskQueue = [];
