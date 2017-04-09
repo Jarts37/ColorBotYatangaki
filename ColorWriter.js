@@ -1,5 +1,5 @@
 function ColorWriter(tab,startX,startY){
-    console.log("citron");
+    //console.log("script loaded");
 	
 	imageData = tab;
 var taskQueue = [];
