@@ -1,4 +1,4 @@
-function ChanclaTyper(X,Y,Image){
+function ChanclaTyper(X,Y,imge){
     //console.log("script loaded");
 	
 	var startX = X;
@@ -65,7 +65,7 @@ function ChanclaTyper(X,Y,Image){
 		
 	}
 	image.crossOrigin = 'Anonymous';
-	image.src = Image;
+	image.src = imge;
 	
 	function RGBAtoPixel(c1,c2,c3)
 	{
