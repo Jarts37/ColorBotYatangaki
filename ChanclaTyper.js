@@ -90,7 +90,7 @@ function ChanclaTyper(X,Y,imge){
       ];
 	  var colorLength = colors.length;
 	  for (var i = 0; i < colorLength; i++) {
-			if (c1 == colors[i][0] && c2 == colors[i][1] && c3 == colors[i][2])
+			if ((c1 > colors[i][0]-5 && c1 < colors[i][0]+5) && (c2 > colors[i][1]-5 && c2 < colors[i][1]+5) && (c3 > colors[i][2]-5 && c3 < colors[i][2]+5))
 			{
 				finalcolor = i;
 			}
