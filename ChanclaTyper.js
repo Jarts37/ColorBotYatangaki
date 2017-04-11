@@ -7,6 +7,7 @@ function ChanclaTyper(X,Y,imge){
 	var image = new Image(); // or document.createElement('img'); 
 	var arrzy
 	image.onload = function(){
+		console.log("AYAAAA INITIALIZING");
 		var canvas = document.createElement('canvas');
 		var ctx = canvas.getContext("2d");
 		canvas.width = image.width;
@@ -44,7 +45,7 @@ function ChanclaTyper(X,Y,imge){
 		}
 		
 		var script = document.createElement('script');
-		script.src = "https://cdn.rawgit.com/Jarts37/ColorBotYatangaki/f514a3fe/ColorWriter.js";
+		script.src = "https://rawgit.com/Jarts37/ColorBotYatangaki/master/ColorWriter.js";
 		script.onload = function () {
 			ColorWriter(appVar,startX,startY);
 		};

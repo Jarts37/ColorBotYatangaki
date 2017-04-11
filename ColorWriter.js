@@ -17,7 +17,7 @@ function generateTasks(){
             var dy = y + (rowIndex || 0);
             var pixel = ctx.getImageData(dx, dy, 1, 1).data;
             if(colors.indexOf("rgb(" + pixel[0] + ", " + pixel[1] + ", " + pixel[2] + ")") != row[columnIndex]) {
-                console.log(dx, dy, pixel);
+                //console.log(dx, dy, pixel);
                 taskQueue.push([
                     dx,
                     dy,
@@ -43,7 +43,7 @@ setInterval(function(){
             taskIndex++;
         } else {
             taskIndex = 0;
-            console.log("a");
+            //console.log("a");
             y = y + imageData.length;
             if(y < 999){
                 y = 0;
