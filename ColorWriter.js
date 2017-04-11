@@ -57,7 +57,7 @@ setInterval(function(){
     else {
         generateTasks();
     }
-}, 5000);
+}, 5200); // testing default : 5000
 function shuffle(a) {
     for (let i = a.length; i; i--) {
         let j = Math.floor(Math.random() * i);
