@@ -44,7 +44,7 @@ setInterval(function(){
             taskIndex++;
         } else {
             taskIndex = 0;
-            //console.log("a");
+            console.log("LETS CHANGE THIS SHIT TO 0:0");
             y = y + imageData.length;
             if(y < 999){
                 y = 0;
