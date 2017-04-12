@@ -44,8 +44,9 @@ setInterval(function(){
             taskIndex++;
         } else {
             taskIndex = 0;
-            console.log("LETS CHANGE THIS SHIT TO 0:0");
-			// Test #10
+            //console.log("LETS CHANGE THIS SHIT TO 0:0");
+			// Test #12 - fonction utilisé pour spammé un motif depuis l'origine une fois l'endroit terminé => bulldozer sans protection.
+			// Réactivé cette fonction si le but est de spammé sur la map.
 			/*
             y = y + imageData.length;		
             if(y < 999){
