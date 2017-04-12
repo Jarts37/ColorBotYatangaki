@@ -46,12 +46,15 @@ setInterval(function(){
             taskIndex = 0;
             console.log("LETS CHANGE THIS SHIT TO 0:0");
             y = y + imageData.length;
+			// Test #10
+			/*
             if(y < 999){
                 y = 0;
                 x += imageData[0].length;
                 if(x < 999)
                     x = 0;
             }
+			*/
             generateTasks();
         }
     }
