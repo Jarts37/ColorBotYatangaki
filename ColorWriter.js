@@ -45,9 +45,9 @@ setInterval(function(){
         } else {
             taskIndex = 0;
             console.log("LETS CHANGE THIS SHIT TO 0:0");
-            y = y + imageData.length;
 			// Test #10
 			/*
+            y = y + imageData.length;		
             if(y < 999){
                 y = 0;
                 x += imageData[0].length;
