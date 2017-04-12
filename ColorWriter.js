@@ -22,7 +22,8 @@ function generateTasks(){
                     dx,
                     dy,
                     (function(dx, dy, c) {
-                        return function() {    
+                        return function() {
+							console.log("Pixel posé en " + dx + ":" +dy);
                             tryColorPixel(dx, dy, c);
                         }
                     })(dx, dy, row[columnIndex])
@@ -57,7 +58,7 @@ setInterval(function(){
     else {
         generateTasks();
     }
-}, 5200); // testing default : 5000
+}, 5000); // testing default : 5000
 function shuffle(a) {
     for (let i = a.length; i; i--) {
         let j = Math.floor(Math.random() * i);
